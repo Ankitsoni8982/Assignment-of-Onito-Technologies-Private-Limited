@@ -1,0 +1,27 @@
+Name :- Ankit Soni
+Contact number :- 7000391436
+Email :- ankitsoni8982858495@gmail.com
+
+
+
+
+1)	Create SQL Tables `movies` & `ratings`, and populate the CSV data into them.
+
+Answer :-
+
+create database Ankit;
+use Ankit;
+create table movies (tconst varchar(20) , titleType varchar(30), primaryTitle varchar(60) , runtimeMinutes int , generes varchar(60), averageRating float(10) , numVotes float(10));
+INSERT INTO movies (tconst,titleType , primaryTitle, runtimeMinutes ,generes, averageRating,numVotes )
+VALUES ('tt0000001' , 'short' , 'Carmencita','1','Documentary', '5.7','1911'),
+('tt0000002' , 'movie' , 'Le clown et ses chiens','5','Animation', '5.8','257'),
+('tt0000003' , 'short' , 'Pauvre Plerrot','4','Animation', '6.5','1716')
+ ('tt0000004' , 'short' , 'Un Bon Bock','12','Animation', '5.6','169') ,
+ ('tt0000005' , 'short' , 'Blacksmith Scence','1','Comedy', '6.2','2532') , 
+('tt0000006' , 'short' , 'Chinese Opium Den','1','short', '5.1','173') ,
+('tt0000007' , 'short' , 'Corbett and courtney before the kinetog','1','short', '5.4','790'),
+ ('tt0000008' , 'movie' , 'Edison Kinetoscopic Record of a Snneze','1','Documentary', '5.4','2054'),
+ ('tt0000009' , 'movie' , 'Miss Jerry','45','Romance','Animation', '5.2','199') 
+ , ('tt0000010' , 'short' , 'Leaving The Factory','1','Action', '6.9','6929');
+
+
